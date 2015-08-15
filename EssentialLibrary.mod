@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  Sun 09 Aug 2015 03:19:43 PM CST
+PCBNEW-LibModule-V1  Sat 15 Aug 2015 11:04:42 PM CST
 # encoding utf-8
 Units mm
 $INDEX
 BREADBOARD_PIN_ROW_2-5-5-2
 MOUNTING_HOLE_M25
 TWIG_2.0
+pin_array_2mm_10x2
 pin_array_2mm_3x2
 pin_array_2mm_4x2
 pin_array_2mm_7x2
@@ -200,6 +201,161 @@ Ne 0 ""
 Po 3 0
 $EndPAD
 $EndMODULE TWIG_2.0
+$MODULE pin_array_2mm_10x2
+Po 0 0 0 15 55CF54EC 00000000 ~~
+Li pin_array_2mm_10x2
+Cd Double range 2mm pins 10x2
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.1 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_2MM_10X2"
+T1 0 3.4 1.016 1.016 0 0.2032 N I 21 N "Val**"
+DS -10.2 -2.2 -10.2 2.2 0.15 21
+DS -10.2 2.2 10.2 2.2 0.15 21
+DS 10.2 2.2 10.2 -2.2 0.15 21
+DS 10.2 -2.2 -10.2 -2.2 0.15 21
+$PAD
+Sh "1" R 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9 1
+$EndPAD
+$PAD
+Sh "2" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9 -1
+$EndPAD
+$PAD
+Sh "3" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7 1
+$EndPAD
+$PAD
+Sh "4" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7 -1
+$EndPAD
+$PAD
+Sh "5" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 1
+$EndPAD
+$PAD
+Sh "6" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 -1
+$EndPAD
+$PAD
+Sh "7" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 1
+$EndPAD
+$PAD
+Sh "8" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 -1
+$EndPAD
+$PAD
+Sh "9" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 1
+$EndPAD
+$PAD
+Sh "10" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 -1
+$EndPAD
+$PAD
+Sh "11" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 1
+$EndPAD
+$PAD
+Sh "12" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 -1
+$EndPAD
+$PAD
+Sh "13" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 1
+$EndPAD
+$PAD
+Sh "14" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 -1
+$EndPAD
+$PAD
+Sh "15" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 1
+$EndPAD
+$PAD
+Sh "16" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 -1
+$EndPAD
+$PAD
+Sh "17" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7 1
+$EndPAD
+$PAD
+Sh "18" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7 -1
+$EndPAD
+$PAD
+Sh "19" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9 1
+$EndPAD
+$PAD
+Sh "20" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9 -1
+$EndPAD
+$EndMODULE pin_array_2mm_10x2
 $MODULE pin_array_2mm_3x2
 Po 0 0 0 15 544CA984 00000000 ~~
 Li pin_array_2mm_3x2

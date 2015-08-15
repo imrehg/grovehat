@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "GroveHat for VIA VAB-820"
-Date "13 aug 2015"
+Date "15 aug 2015"
 Rev "1"
 Comp "Moonpunch"
 Comment1 "CERN Open Hardware License 1.2"
@@ -57,14 +57,14 @@ F 5 "950420-6102-AR" H 3250 3750 60  0001 C CNN "MFPN"
 F 6 "517-950420-6102-AR" H 3250 3750 60  0001 C CNN "S1PN"
 F 7 "http://www.mouser.tw/ProductDetail/3M-Electronic-Solutions-Division/950420-6102-AR/" H 3250 3750 60  0001 C CNN "S1L"
 	1    3250 3750
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_4 P2
 U 1 1 55CC9A1E
 P 5400 3700
 F 0 "P2" V 5350 3700 50  0000 C CNN
-F 1 "CONN_4" V 5450 3700 50  0000 C CNN
+F 1 "GROVE" V 5450 3700 50  0000 C CNN
 F 2 "TWIG_2.0" H 5400 3700 60  0001 C CNN
 F 3 "http://www.seeedstudio.com/depot/images/opl/datasheet/3470130P1.pdf" H 5400 3700 60  0001 C CNN
 F 4 "Taifeng" V 5400 3700 60  0001 C CNN "MFN"
@@ -79,7 +79,7 @@ L CONN_4 P3
 U 1 1 55CC9A2D
 P 6450 3700
 F 0 "P3" V 6400 3700 50  0000 C CNN
-F 1 "CONN_4" V 6500 3700 50  0000 C CNN
+F 1 "GROVE" V 6500 3700 50  0000 C CNN
 F 2 "TWIG_2.0" H 5400 3700 60  0001 C CNN
 F 3 "http://www.seeedstudio.com/depot/images/opl/datasheet/3470130P1.pdf" H 5400 3700 60  0001 C CNN
 F 4 "Taifeng" V 5400 3700 60  0001 C CNN "MFN"
@@ -94,7 +94,7 @@ L CONN_4 P4
 U 1 1 55CC9A3C
 P 7450 3700
 F 0 "P4" V 7400 3700 50  0000 C CNN
-F 1 "CONN_4" V 7500 3700 50  0000 C CNN
+F 1 "GROVE" V 7500 3700 50  0000 C CNN
 F 2 "TWIG_2.0" H 5400 3700 60  0001 C CNN
 F 3 "http://www.seeedstudio.com/depot/images/opl/datasheet/3470130P1.pdf" H 5400 3700 60  0001 C CNN
 F 4 "Taifeng" V 5400 3700 60  0001 C CNN "MFN"
@@ -109,7 +109,7 @@ L CONN_4 P5
 U 1 1 55CC9A4B
 P 8400 3700
 F 0 "P5" V 8350 3700 50  0000 C CNN
-F 1 "CONN_4" V 8450 3700 50  0000 C CNN
+F 1 "GROVE" V 8450 3700 50  0000 C CNN
 F 2 "TWIG_2.0" H 5400 3700 60  0001 C CNN
 F 3 "http://www.seeedstudio.com/depot/images/opl/datasheet/3470130P1.pdf" H 5400 3700 60  0001 C CNN
 F 4 "Taifeng" V 5400 3700 60  0001 C CNN "MFN"
@@ -249,4 +249,6 @@ Connection ~ 4000 3700
 Wire Wire Line
 	2100 3700 2850 3700
 Connection ~ 2350 3700
+Text Notes 2050 4450 0    60   ~ 0
+Pins to match J7 on the VAB-820 board\nNote: The pins match but the numbering not the same as in the manual!\nFlipped connector for correct mounting (bottom of board),\nwhich affects the numbering
 $EndSCHEMATC
