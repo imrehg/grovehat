@@ -1,13 +1,11 @@
-update=Sun 16 Aug 2015 12:16:42 AM CST
+update=Sun 16 Aug 2015 06:42:37 PM CST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../grovehat
@@ -87,3 +85,5 @@ LibName16=valves
 LibName17=EssentialLibrary
 LibName18=MoonPunchLogo
 LibName19=OSHW
+[general]
+version=1
