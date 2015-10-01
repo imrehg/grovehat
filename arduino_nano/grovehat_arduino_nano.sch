@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "GroveHat for Arduino Nano / Micro"
-Date "20 sep 2015"
+Date "1 oct 2015"
 Rev "1"
 Comp "Moonpunch"
 Comment1 "CERN Open Hardware License 1.2"
@@ -52,7 +52,9 @@ P 6400 1800
 F 0 "P3" V 6350 1800 50  0000 C CNN
 F 1 "CONN_4" V 6450 1800 50  0000 C CNN
 F 2 "TWIG_2.0" H 6400 1800 60  0001 C CNN
-F 3 "~" H 6400 1800 60  0000 C CNN
+F 3 "http://www.seeedstudio.com/depot/images/opl/datasheet/3470130P1.pdf" H 6400 1800 60  0001 C CNN
+F 4 "Taifeng" V 6400 1800 60  0001 C CNN "MFN"
+F 5 "1125S-4P" V 6400 1800 60  0001 C CNN "MFPN"
 	1    6400 1800
 	1    0    0    -1  
 $EndComp
@@ -63,7 +65,9 @@ P 6400 2500
 F 0 "P4" V 6350 2500 50  0000 C CNN
 F 1 "CONN_4" V 6450 2500 50  0000 C CNN
 F 2 "TWIG_2.0" H 6400 2500 60  0001 C CNN
-F 3 "~" H 6400 2500 60  0000 C CNN
+F 3 "http://www.seeedstudio.com/depot/images/opl/datasheet/3470130P1.pdf" H 6400 2500 60  0001 C CNN
+F 4 "Taifeng" V 6400 2500 60  0001 C CNN "MFN"
+F 5 "1125S-4P" V 6400 2500 60  0001 C CNN "MFPN"
 	1    6400 2500
 	1    0    0    -1  
 $EndComp
@@ -74,7 +78,9 @@ P 6400 4600
 F 0 "P7" V 6350 4600 50  0000 C CNN
 F 1 "CONN_4" V 6450 4600 50  0000 C CNN
 F 2 "TWIG_2.0" H 6400 4600 60  0001 C CNN
-F 3 "~" H 6400 4600 60  0000 C CNN
+F 3 "http://www.seeedstudio.com/depot/images/opl/datasheet/3470130P1.pdf" H 6400 4600 60  0001 C CNN
+F 4 "Taifeng" V 6400 4600 60  0001 C CNN "MFN"
+F 5 "1125S-4P" V 6400 4600 60  0001 C CNN "MFPN"
 	1    6400 4600
 	1    0    0    -1  
 $EndComp
@@ -86,6 +92,11 @@ F 0 "C1" H 4750 2100 40  0000 L CNN
 F 1 "10u" H 4756 1915 40  0000 L CNN
 F 2 "SM0805" H 4788 1850 30  0001 C CNN
 F 3 "~" H 4750 2000 60  0000 C CNN
+F 4 "AVX" H 4750 2000 60  0001 C CNN "MFN"
+F 5 "08056D106MAT2A" H 4750 2000 60  0001 C CNN "MFPN"
+F 6 "Mouser" H 4750 2000 60  0001 C CNN "S1N"
+F 7 "581-08056D106MAT2A" H 4750 2000 60  0001 C CNN "S1PN"
+F 8 "http://www.mouser.tw/ProductDetail/AVX/08056D106MAT2A/" H 4750 2000 60  0001 C CNN "S1L"
 	1    4750 2000
 	1    0    0    -1  
 $EndComp
@@ -95,8 +106,17 @@ U 1 1 55FD7AE4
 P 3000 2150
 F 0 "P1" H 3000 2950 60  0000 C CNN
 F 1 "CONN_15" V 3000 2150 60  0000 C CNN
-F 2 "" H 3000 2150 60  0000 C CNN
-F 3 "" H 3000 2150 60  0000 C CNN
+F 2 "~" H 3000 2150 60  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/181/M20-782-351467.pdf" H 3000 2150 60  0001 C CNN
+F 4 "Harwin" H 3000 2150 60  0001 C CNN "MFN"
+F 5 "M20-7821546" H 3000 2150 60  0001 C CNN "MFPN"
+F 6 "Mouser" H 3000 2150 60  0001 C CNN "S1N"
+F 7 "855-M20-7821546" H 3000 2150 60  0001 C CNN "S1PN"
+F 8 "http://www.mouser.tw/ProductDetail/Harwin/M20-7821546/" H 3000 2150 60  0001 C CNN "S1L"
+F 9 "Guanghwa Computer Market" H 3000 2150 60  0001 C CNN "S2N"
+F 10 "Seeed" H 3000 2150 60  0001 C CNN "S3N"
+F 11 "320030031" H 3000 2150 60  0001 C CNN "S3PN"
+F 12 "http://www.seeedstudio.com/depot/index.php?main_page=opl_info&opl_id=669" H 3000 2150 60  0001 C CNN "S3L"
 	1    3000 2150
 	1    0    0    -1  
 $EndComp
@@ -106,8 +126,17 @@ U 1 1 55FD7AF3
 P 3450 2150
 F 0 "P2" H 3450 2950 60  0000 C CNN
 F 1 "CONN_15" V 3450 2150 60  0000 C CNN
-F 2 "" H 3450 2150 60  0000 C CNN
-F 3 "" H 3450 2150 60  0000 C CNN
+F 2 "~" H 3450 2150 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/181/M20-782-351467.pdf" H 3000 2150 60  0001 C CNN
+F 4 "Harwin" H 3000 2150 60  0001 C CNN "MFN"
+F 5 "M20-7821546" H 3000 2150 60  0001 C CNN "MFPN"
+F 6 "Mouser" H 3000 2150 60  0001 C CNN "S1N"
+F 7 "855-M20-7821546" H 3000 2150 60  0001 C CNN "S1PN"
+F 8 "http://www.mouser.tw/ProductDetail/Harwin/M20-7821546/" H 3000 2150 60  0001 C CNN "S1L"
+F 9 "Guanghwa Computer Market" H 3000 2150 60  0001 C CNN "S2N"
+F 10 "Seeed" H 3000 2150 60  0001 C CNN "S3N"
+F 11 "320030031" H 3000 2150 60  0001 C CNN "S3PN"
+F 12 "http://www.seeedstudio.com/depot/index.php?main_page=opl_info&opl_id=669" H 3000 2150 60  0001 C CNN "S3L"
 	1    3450 2150
 	-1   0    0    -1  
 $EndComp
@@ -238,8 +267,10 @@ U 1 1 55FD8111
 P 6400 3200
 F 0 "P5" V 6350 3200 50  0000 C CNN
 F 1 "CONN_4" V 6450 3200 50  0000 C CNN
-F 2 "~" H 6400 3200 60  0000 C CNN
-F 3 "~" H 6400 3200 60  0000 C CNN
+F 2 "TWIG_2.0" H 6400 3200 60  0001 C CNN
+F 3 "http://www.seeedstudio.com/depot/images/opl/datasheet/3470130P1.pdf" H 6400 3200 60  0001 C CNN
+F 4 "Taifeng" V 6400 3200 60  0001 C CNN "MFN"
+F 5 "1125S-4P" V 6400 3200 60  0001 C CNN "MFPN"
 	1    6400 3200
 	1    0    0    -1  
 $EndComp
@@ -270,7 +301,9 @@ P 6400 3900
 F 0 "P6" V 6350 3900 50  0000 C CNN
 F 1 "CONN_4" V 6450 3900 50  0000 C CNN
 F 2 "TWIG_2.0" H 6400 3900 60  0001 C CNN
-F 3 "~" H 6400 3900 60  0000 C CNN
+F 3 "http://www.seeedstudio.com/depot/images/opl/datasheet/3470130P1.pdf" H 6400 3900 60  0001 C CNN
+F 4 "Taifeng" V 6400 3900 60  0001 C CNN "MFN"
+F 5 "1125S-4P" V 6400 3900 60  0001 C CNN "MFPN"
 	1    6400 3900
 	1    0    0    -1  
 $EndComp
