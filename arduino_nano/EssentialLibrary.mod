@@ -1,0 +1,802 @@
+PCBNEW-LibModule-V1  Sat 19 Sep 2015 11:28:20 PM CST
+# encoding utf-8
+Units mm
+$INDEX
+BREADBOARD_PIN_ROW_2-5-5-2
+MOUNTING_HOLE_M25
+PIN_ARRAY_15x1
+TWIG_2.0
+pin_array_2mm_10x2
+pin_array_2mm_3x2
+pin_array_2mm_4x2
+pin_array_2mm_7x2
+pin_array_3x2_mirror
+$EndINDEX
+$MODULE BREADBOARD_PIN_ROW_2-5-5-2
+Po 0 0 0 15 544CC26B 00000000 ~~
+Li BREADBOARD_PIN_ROW_2-5-5-2
+Cd Breadboard Pin Row
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.54 1.016 1.016 0 0.2032 N V 21 N "BREADBOARD_PIN_ROW_2-5-5-2"
+T1 0 2.54 1.016 1.016 0 0.2032 N I 21 N "Val**"
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -21.59 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.05 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "11" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "12" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$PAD
+Sh "13" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 19.05 0
+$EndPAD
+$PAD
+Sh "14" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 21.59 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE BREADBOARD_PIN_ROW_2-5-5-2
+$MODULE MOUNTING_HOLE_M25
+Po 0 0 0 15 544E590B 00000000 ~~
+Li MOUNTING_HOLE_M25
+Cd Mounting Hole M2.5
+Kw CONN DEV
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.048 0.762 0.762 0 0.1524 N V 21 N "MOUNT_HOLE_M25"
+T1 0 3.302 0.762 0.762 0 0.1524 N I 21 N "Val**"
+$PAD
+Sh "1" C 4.5 4.5 0 0 0
+Dr 2.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$SHAPE3D
+Na "pin_array\\pin_1.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE MOUNTING_HOLE_M25
+$MODULE PIN_ARRAY_15x1
+Po 0 0 0 15 55FD7F0A 00000000 ~~
+Li PIN_ARRAY_15x1
+Cd Double rangee de contacts 15 x 1 pins
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.54 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_15X1"
+T1 0 2.54 1.016 1.016 0 0.2032 N I 21 N "Val**"
+DS -19.05 -1.3 19.05 -1.35 0.15 21
+DS 19.05 -1.35 19.05 1.3 0.15 21
+DS 19.05 1.3 -19.05 1.3 0.15 21
+DS -19.05 1.3 -19.05 -1.3 0.15 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.78 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15.24 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "11" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "12" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "13" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$PAD
+Sh "14" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15.24 0
+$EndPAD
+$PAD
+Sh "15" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 17.78 0
+$EndPAD
+$EndMODULE PIN_ARRAY_15x1
+$MODULE TWIG_2.0
+Po 0 0 0 15 55C6FF0C 00000000 ~~
+Li TWIG_2.0
+Cd Seeed Grove connector
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.8 1 1 0 0.15 N V 21 N "TWIG_2.0"
+T1 3.15 3.1 1 1 0 0.15 N V 21 N "VAL**"
+DS -5 -2.95 -5 2.15 0.15 21
+DS -5 2.15 5 2.15 0.15 21
+DS 5 2.15 5 -2.95 0.15 21
+DS 5 -2.95 3 -2.95 0.15 21
+DS 3 -2.95 3 -2.15 0.15 21
+DS 3 -2.15 1.75 -2.15 0.15 21
+DS 1.75 -2.15 1.75 -2.95 0.15 21
+DS 1.75 -2.95 -1.75 -2.95 0.15 21
+DS -1.75 -2.95 -1.75 -2.15 0.15 21
+DS -1.75 -2.15 -3 -2.15 0.15 21
+DS -3 -2.15 -3 -2.95 0.15 21
+DS -3 -2.95 -5 -2.95 0.15 21
+$PAD
+Sh "1" R 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 0
+$EndPAD
+$PAD
+Sh "2" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "3" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "4" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 0
+$EndPAD
+$EndMODULE TWIG_2.0
+$MODULE pin_array_2mm_10x2
+Po 0 0 0 15 55CF54EC 00000000 ~~
+Li pin_array_2mm_10x2
+Cd Double range 2mm pins 10x2
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.1 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_2MM_10X2"
+T1 0 3.4 1.016 1.016 0 0.2032 N I 21 N "Val**"
+DS -10.2 -2.2 -10.2 2.2 0.15 21
+DS -10.2 2.2 10.2 2.2 0.15 21
+DS 10.2 2.2 10.2 -2.2 0.15 21
+DS 10.2 -2.2 -10.2 -2.2 0.15 21
+$PAD
+Sh "1" R 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9 1
+$EndPAD
+$PAD
+Sh "2" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9 -1
+$EndPAD
+$PAD
+Sh "3" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7 1
+$EndPAD
+$PAD
+Sh "4" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7 -1
+$EndPAD
+$PAD
+Sh "5" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 1
+$EndPAD
+$PAD
+Sh "6" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 -1
+$EndPAD
+$PAD
+Sh "7" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 1
+$EndPAD
+$PAD
+Sh "8" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 -1
+$EndPAD
+$PAD
+Sh "9" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 1
+$EndPAD
+$PAD
+Sh "10" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 -1
+$EndPAD
+$PAD
+Sh "11" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 1
+$EndPAD
+$PAD
+Sh "12" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 -1
+$EndPAD
+$PAD
+Sh "13" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 1
+$EndPAD
+$PAD
+Sh "14" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 -1
+$EndPAD
+$PAD
+Sh "15" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 1
+$EndPAD
+$PAD
+Sh "16" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 -1
+$EndPAD
+$PAD
+Sh "17" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7 1
+$EndPAD
+$PAD
+Sh "18" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7 -1
+$EndPAD
+$PAD
+Sh "19" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9 1
+$EndPAD
+$PAD
+Sh "20" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9 -1
+$EndPAD
+$EndMODULE pin_array_2mm_10x2
+$MODULE pin_array_2mm_3x2
+Po 0 0 0 15 544CA984 00000000 ~~
+Li pin_array_2mm_3x2
+Cd Double range 2mm pins 3x2
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.1 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_2MM_3X2"
+T1 0 3.81 1.016 1.016 0 0.2032 N I 21 N "Val**"
+DS -3.2 -2.2 3.2 -2.2 0.15 21
+DS 3.2 -2.2 3.2 2.2 0.15 21
+DS 3.2 2.2 -3.2 2.2 0.15 21
+DS -3.2 2.2 -3.2 -2.2 0.15 21
+$PAD
+Sh "1" R 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2 1
+$EndPAD
+$PAD
+Sh "2" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2 -1
+$EndPAD
+$PAD
+Sh "3" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1
+$EndPAD
+$PAD
+Sh "4" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1
+$EndPAD
+$PAD
+Sh "5" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 1
+$EndPAD
+$PAD
+Sh "6" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 -1
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_2mm_3x2
+$MODULE pin_array_2mm_4x2
+Po 0 0 0 15 544CAA62 00000000 ~~
+Li pin_array_2mm_4x2
+Cd Double range 2mm pins 4x2
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.1 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_2MM_4X2"
+T1 0 3.81 1.016 1.016 0 0.2032 N I 21 N "Val**"
+DS -4.3 -2.2 4.3 -2.2 0.15 21
+DS 4.3 -2.2 4.3 2.2 0.15 21
+DS 4.3 2.2 -4.3 2.2 0.15 21
+DS -4.3 2.2 -4.3 -2.2 0.15 21
+$PAD
+Sh "1" R 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 1
+$EndPAD
+$PAD
+Sh "2" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 -1
+$EndPAD
+$PAD
+Sh "3" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 1
+$EndPAD
+$PAD
+Sh "4" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 -1
+$EndPAD
+$PAD
+Sh "5" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 1
+$EndPAD
+$PAD
+Sh "6" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 -1
+$EndPAD
+$PAD
+Sh "7" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 1
+$EndPAD
+$PAD
+Sh "8" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 -1
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_2mm_4x2
+$MODULE pin_array_2mm_7x2
+Po 0 0 0 15 544CAB61 00000000 ~~
+Li pin_array_2mm_7x2
+Cd Double range 2mm pins 7x2
+Kw CONN
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.1 1.016 1.016 0 0.2032 N V 21 N "PIN_ARRAY_2MM_7X2"
+T1 0 3.81 1.016 1.016 0 0.2032 N I 21 N "Val**"
+DS -7.2 -2.2 7.2 -2.2 0.15 21
+DS 7.2 -2.2 7.2 2.2 0.15 21
+DS 7.2 2.2 -7.2 2.2 0.15 21
+DS -7.2 2.2 -7.2 -2.2 0.15 21
+$PAD
+Sh "1" R 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6 1
+$EndPAD
+$PAD
+Sh "2" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6 -1
+$EndPAD
+$PAD
+Sh "3" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4 1
+$EndPAD
+$PAD
+Sh "4" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4 -1
+$EndPAD
+$PAD
+Sh "5" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2 1
+$EndPAD
+$PAD
+Sh "6" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2 -1
+$EndPAD
+$PAD
+Sh "7" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1
+$EndPAD
+$PAD
+Sh "8" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1
+$EndPAD
+$PAD
+Sh "9" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 1
+$EndPAD
+$PAD
+Sh "10" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2 -1
+$EndPAD
+$PAD
+Sh "11" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4 1
+$EndPAD
+$PAD
+Sh "12" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4 -1
+$EndPAD
+$PAD
+Sh "13" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6 1
+$EndPAD
+$PAD
+Sh "14" C 1.3 1.3 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6 -1
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE pin_array_2mm_7x2
+$MODULE pin_array_3x2_mirror
+Po 0 0 0 15 544E4AA1 00000000 ~~
+Li pin_array_3x2_mirror
+Cd Double rangee de contacts 2 x 4 pins
+Kw CONN
+Sc 0
+AR /543CD3FE
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N I 21 N "P4"
+T1 0 3.81 1.016 1.016 0 0.2032 N I 21 N "CONN_3X2"
+DS 3.81 2.54 -3.81 2.54 0.2032 21
+DS -3.81 -2.54 3.81 -2.54 0.2032 21
+DS 3.81 -2.54 3.81 2.54 0.2032 21
+DS -3.81 2.54 -3.81 -2.54 0.2032 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "/PWR_LED"
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "GND"
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "/PWRBTN"
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "GND"
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "/RESET1"
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "GND"
+Po 2.54 1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 180 0
+$EndSHAPE3D
+$EndMODULE pin_array_3x2_mirror
+$EndLIBRARY

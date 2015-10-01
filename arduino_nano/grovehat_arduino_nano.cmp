@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sun 20 Sep 2015 03:15:33 PM CST
+
+BeginCmp
+TimeStamp = /55FD772F;
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FD7AE4;
+Reference = P1;
+ValeurCmp = CONN_15;
+IdModule  = PIN_ARRAY_15x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FD7AF3;
+Reference = P2;
+ValeurCmp = CONN_15;
+IdModule  = PIN_ARRAY_15x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FD7702;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = TWIG_2.0;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FD7711;
+Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = TWIG_2.0;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FD8111;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = TWIG_2.0;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FD83E8;
+Reference = P6;
+ValeurCmp = CONN_4;
+IdModule  = TWIG_2.0;
+EndCmp
+
+BeginCmp
+TimeStamp = /55FD7720;
+Reference = P7;
+ValeurCmp = CONN_4;
+IdModule  = TWIG_2.0;
+EndCmp
+
+EndListe
